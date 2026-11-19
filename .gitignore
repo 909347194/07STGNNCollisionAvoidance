@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# 实验产物
+data/results/
+*.csv
+!data/.gitkeep
+
+# 训练产物（模型权重与训练历史，本地/服务器生成）
+models/
+
+# IDE
+.idea/
+.vscode/
